@@ -1,0 +1,24 @@
+body {
+  display: flex;
+  flex-direction: column; /* stack children vertically */
+  justify-content: flex-start; /* push them to the top */
+  align-items: center; /* keep them horizontally centered */
+}
+
+.App-header {
+  padding: 2rem;
+  margin: 0 auto;
+  text-align: center;
+}
+.logo {
+  height: 6em;
+  margin: 2em auto;
+  padding: 1.5em;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+h1 {
+  text-align: center;
+}
