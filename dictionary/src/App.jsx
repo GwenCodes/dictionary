@@ -5,9 +5,7 @@ export default function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <a href="src/ed-logo.png" target="_blank">
-          <img src={logo} className="logo img-fluid" alt="ED logo" />
-        </a>
+        <img src={logo} className="App-logo img-fluid" alt="ED logo" />
         <div>
           <h1>Dictionary React App</h1>
         </div>
