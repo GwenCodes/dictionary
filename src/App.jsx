@@ -1,6 +1,6 @@
 import logo from "./ed-logo.png";
 import "./App.css";
-import Dictionary from "./dictionary.js";
+import Dictionary from "./Dictionary.jsx";
 
 export default function App() {
   return (
