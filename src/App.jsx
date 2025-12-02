@@ -1,15 +1,21 @@
 import logo from "./ed-logo.png";
 import "./App.css";
+import Dictionary from "./dictionary.js";
 
 export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo img-fluid" alt="ED logo" />
-        <div>
-          <h1>Dictionary React App</h1>
-        </div>
-      </header>
+      <div className="container">
+        <header className="App-header">
+          <img src={logo} className="App-logo img-fluid" alt="ED logo" />
+          <div>
+            <h1>Dictionary React App</h1>
+            <main>
+              <Dictionary />
+            </main>
+          </div>
+        </header>
+      </div>
     </div>
   );
 }
