@@ -6,11 +6,13 @@ export default function Result(props) {
     return (
       <div className="Result">
         <h2>{props.result.word}</h2>
-        {(props.result.meanings ?? []).map((meaning, index) => (
-          <div key={index}>
-            <Meaning meaning={meaning} />
-          </div>
-        ))}
+        {props.result.meanings.map(function (meaning, index) {
+          return (
+            <div key={index}>
+              <Meaning meaning={meaning} />
+            </div>
+          );
+        })}
       </div>
     );
   } else {
