@@ -2,8 +2,31 @@
 .Dictionary {
   /* Example styles */
   padding: 20px;
+  text-align: left;
 }
 
 form {
   margin-top: 10px;
+}
+.Dictionary section {
+  background-color: white;
+  padding: 30px;
+  border: solid 1px white;
+  border-radius: 5px;
+  margin: 30px 0;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+    rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+.Dictionary input {
+  width: 100%;
+  padding: 6px 10px;
+  font-size: 1.2em;
+  border-radius: 5px;
+  margin: 20px 0;
+  border: solid 1px #a89b9d;
+  color: #58a4b0;
+}
+.Dictionary hint {
+  font-size: 0.9em;
+  color: #a89b9d;
 }

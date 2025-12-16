@@ -10,9 +10,9 @@ export default function App() {
           <img src={logo} className="App-logo img-fluid" alt="ED logo" />
           <div>
             <h1>Dictionary React App</h1>
-            <main>
+            <section>
               <Dictionary />
-            </main>
+            </section>
           </div>
         </header>
       </div>
