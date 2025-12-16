@@ -11,7 +11,7 @@ export default function App() {
           <div>
             <h1>Dictionary React App</h1>
             <section>
-              <Dictionary />
+              <Dictionary defaultKeyword="sweater" />
             </section>
           </div>
         </header>
