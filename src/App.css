@@ -3,7 +3,7 @@ body {
   flex-direction: column; /* stack children vertically */
   justify-content: flex-start; /* push them to the top */
   align-items: center; /* keep them horizontally centered */
-  background: #fef8f9;
+  background: #ededed;
 }
 
 .App-header {
