@@ -1,0 +1,22 @@
+.Meaning {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.Meaning h3 {
+  margin-bottom: 0.5rem;
+  font-size: 25px;
+  color: #a89093;
+}
+
+.Meaning .example {
+  font-style: italic;
+  color: #a89093;
+  margin-left: 1rem;
+}
+
+.Meaning .definition {
+  margin-bottom: 1rem;
+  color: #363633;
+  margin-top: 1.5rem;
+}
