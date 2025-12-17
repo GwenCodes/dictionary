@@ -28,7 +28,6 @@ export default function Dictionary() {
 
   function load() {
     setLoaded(true);
-    search();
   }
 
   if (loaded) {
