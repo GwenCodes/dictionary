@@ -1,11 +1,13 @@
 body {
   display: flex;
   flex-direction: column; /* stack children vertically */
-  justify-content: flex-start; /* push them to the top */
   align-items: center; /* keep them horizontally centered */
   background: #ededed;
 }
-
+.App {
+  max-width: 960px;
+  margin: 0 auto;
+}
 .App-header {
   padding: 2rem;
   margin: 30px 0;
