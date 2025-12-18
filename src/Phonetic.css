@@ -23,3 +23,7 @@
   font-weight: bold;
   color: rgb(91, 91, 91);
 }
+.Phonetic audio {
+  height: 15px;
+  outline: none;
+}
