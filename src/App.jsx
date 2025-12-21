@@ -1,4 +1,4 @@
-import logo from "./ed-logo.png";
+import logo from "/img/web-starburst-logo-small.png";
 import "./App.css";
 import Dictionary from "./Dictionary.jsx";
 
