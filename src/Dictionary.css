@@ -32,11 +32,12 @@ form {
 .Dictionary input {
   text-align: center;
   width: 100%;
-  padding: 6px 10px;
+  padding: 10px 10px;
   font-size: 1.2rem;
   border-radius: 5px;
   margin: 15px auto;
   border: solid 1px #b1abac;
+  background-color: rgb(235, 235, 235);
   color: #58a4b0;
 }
 
@@ -51,5 +52,8 @@ form {
     margin-left: 0;
     margin-right: 0;
     padding: 0;
+  }
+  .Dictionary section {
+    padding: 20px;
   }
 }
